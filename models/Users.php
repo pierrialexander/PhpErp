@@ -65,7 +65,6 @@ class Users extends model {
         }
     }
 
-
     /**
      * Retorna o ID da comanhia a qual o Usuário pertence.
      * @return mixed
