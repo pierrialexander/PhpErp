@@ -64,7 +64,15 @@ class Users extends model {
             }
         }
     }
-
+    
+    /**
+     * Encerra a sessão do usuário.
+     * @return void
+     */
+    public function logout() {
+        unset($_SESSION['ccUser']);
+    }
+    
     /**
      * Retorna o ID da comanhia a qual o Usuário pertence.
      * @return mixed
@@ -77,6 +85,20 @@ class Users extends model {
             return 0;
         }
     }
+
+    /**
+     * Retorna o email do usuário logado.
+     * @return String
+     */
+    public function getEmail() {
+        if(isset($this->userInfo['email'])) {
+            return $this->userInfo['email'];
+        }
+        else {
+            return '';
+        }
+    }
+
 }
 
 

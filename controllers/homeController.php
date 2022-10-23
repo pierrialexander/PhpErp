@@ -27,6 +27,7 @@ class homeController extends controller{
         // instância do model da Compania que o usuário pertence.
         $company = new Companies($u->getCompany());
         $data['company_name'] = $company->getName();
+        $data['email'] = $u->getEmail();
 
 
         $this->loadTemplate('home', $data);

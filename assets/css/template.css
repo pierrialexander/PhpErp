@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.leftmenu {
+    width: 200px;
+    background-color: #1f232a;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.company_name {
+    height: 100px;
+    line-height: 100px;
+    font-size: 18px;
+    color: #FFF;
+    text-align: center;
+}
+
+.container {
+    padding-left: 200px;
+}
+
+.top {
+    height: 40px;
+    background-color: #232830;
+    color: #FFF;
+    font-size: 15px;
+}
+
+.top_right {
+    float: right;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top_right a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.menuarea {
+    color: white;
+}
+
+.menuarea ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menuarea li {
+    height: 40px;
+    line-height: 40px;
+    font-size: 1rem;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.menuarea i {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.menuarea li:hover {
+    background-color: black;
+}
+
+.menuarea a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.area {
+    color: black;
+    padding: 15px;
+} 
+
+.tabitem {
+    float: left;
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #000;
+    background-color: #EEE;
+    cursor: pointer;
+
+}
+
+.activetab {
+    border-bottom: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.tabbody {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
